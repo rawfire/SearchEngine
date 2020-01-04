@@ -9,7 +9,7 @@ class SearchBar extends Component {
     }
 
     renderInput(field) {
-        return <input type="text" placeholder="And here We Go..." {...field.input} />
+        return <input type="text" placeholder="&#xf002; And here We Go..." {...field.input} />
     }
 
     render() {
