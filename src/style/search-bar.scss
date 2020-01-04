@@ -1,0 +1,36 @@
+.search-bar {
+
+    .search-bar-wrapper {
+        display: grid;
+        grid-row-gap: 20px;
+        width: 100%;
+
+        input {
+            padding-left: 35px;
+            box-shadow: 2px 3px 20px 1px rgba(0,0,0, 0.1);
+            border: 0px solid transparent;
+            border-radius: 5px;
+            height: 80px;
+            font-size: 40px;
+            width: 66vw;
+        
+                &::placeholder {
+                    color: #b3b3b3;
+                }
+                &:hover {
+                    transition: all 0.3s ease-in-out;
+                    outline: none;
+                    box-shadow: 2px 3px 20px 1px rgba(0,0,0, 0.3);
+                }
+        
+            }
+        
+            p {
+                text-align: right;
+                color: #b3b3b3;
+            }
+    }
+
+    
+
+}
