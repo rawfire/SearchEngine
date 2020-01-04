@@ -1,17 +1,13 @@
+@import "./mixin.scss";
 @import "./logo.scss";
 @import "./posts.scss";
 @import "./home.scss";
 @import "./search-bar.scss";
 @import "./recent-posts.scss";
-
+@import "./results.scss";
 
 body {
     font-family: 'Lato', sans-serif;
-}
-
-.logo-main {
-    display: grid;
-    justify-items: center;
 }
 
 ul {
