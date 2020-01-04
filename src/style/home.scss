@@ -1,17 +1,14 @@
 .app-wrapper {
     display: grid;
     justify-content: center;
+
 }
 .home {
     height: 100vh;
     width: 66vw;
     display: grid;
     align-content: space-around;
-    justify-items: stretch;
+    // justify-items: stretch;
 }
 
-.recent-posts-wrapper {
-    display: grid;
-    justify-items: center;
-}
 

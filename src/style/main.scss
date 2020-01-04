@@ -2,6 +2,7 @@
 @import "./posts.scss";
 @import "./home.scss";
 @import "./search-bar.scss";
+@import "./recent-posts.scss";
 
 
 body {
@@ -11,4 +12,10 @@ body {
 .logo-main {
     display: grid;
     justify-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
