@@ -1,4 +1,6 @@
 .search-bar {
+    display:grid;
+
 
     .search-bar-wrapper {
         display: grid;
@@ -10,8 +12,8 @@
             box-shadow: 2px 3px 20px 1px rgba(0,0,0, 0.1);
             border: 0px solid transparent;
             border-radius: 5px;
-            height: 80px;
-            font-size: 40px;
+            // height: 80px;
+            // font-size: 40px;
             // width: 66vw;
         
                 &::placeholder {
@@ -32,7 +34,21 @@
                 color: #b3b3b3;
             }
     }
+}
 
-    
-
+.search-bar__home {
+    align-content: center;
+    align-items: center;
+    input{
+    height: 80px;
+    font-size: 40px;
+    }
+}
+.search-bar__results {
+    align-content: start;
+    align-items: center;
+    input {
+        font-size: 22px;
+        height: 36px;
+    }
 }
