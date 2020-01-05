@@ -42,4 +42,4 @@ function mapStateToProps(state) {
     }
 } 
 
-export default connect(mapStateToProps, actions)(RecentPosts)
+export default connect(mapStateToProps, actions)(RecentPosts);
